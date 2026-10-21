@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.seleccion {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.seleccion p {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    background-color: #e8d0b3;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.resultado p {
+    margin: 5px 0;
+}
+
+#imagen {
+    display: block;
+    max-width: 300px;
+    max-height: 250px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
